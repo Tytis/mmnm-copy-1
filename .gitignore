@@ -1,0 +1,43 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+2.7
+
+# other
+src/main/java/version.txt
+src/main/java/earlyaccess.txt
+src/main/resources/assets/mineminenomi/EXTRA_BOT_FILES
+eclipse
+bin
+logs
+mods
+resourcepacks
+saves
+options.txt
+usernamecache.json
+run
+.env*
+*~$*
+*.bak
+
+# wypi shit
+*.properties
+*~$*
+.env
+**/libs
+**/generated

@@ -1,0 +1,8 @@
+package xyz.pixelatedw.MineMineNoMi3.quests;
+
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
+
+public interface IInteractQuest {
+  boolean isTarget(EntityPlayer paramEntityPlayer, EntityLivingBase paramEntityLivingBase);
+}
